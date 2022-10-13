@@ -1,0 +1,232 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\user\Desktop\Documentos\LAOC\Pratica2\simulation\modelsim
+vbarrel
+IbBHiz<5<`lN[eTlEQbiAU1
+V=]cL8o84G2<l9Z4mgbNb[1
+Z1 dC:\Users\user\Desktop\Documentos\LAOC\Pratica2\simulation\modelsim
+w1665632798
+8C:/Users/user/Desktop/Documentos/LAOC/Pratica2/barrel.v
+FC:/Users/user/Desktop/Documentos/LAOC/Pratica2/barrel.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/user/Desktop/Documentos/LAOC/Pratica2 -O0
+!i10b 1
+!s100 iWnI<G^adcdR`Y2QMc9;93
+!s85 0
+!s108 1665640093.890000
+!s107 C:/Users/user/Desktop/Documentos/LAOC/Pratica2/barrel.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/user/Desktop/Documentos/LAOC/Pratica2|C:/Users/user/Desktop/Documentos/LAOC/Pratica2/barrel.v|
+!s101 -O0
+vdec3to8
+IF[<3Sn`f58zPJ<8c=ISfg0
+Vo7MfnJ[<_TGEgHGE>dVa?1
+R1
+w1665636124
+8C:/Users/user/Desktop/Documentos/LAOC/Pratica2/dec3to8.v
+FC:/Users/user/Desktop/Documentos/LAOC/Pratica2/dec3to8.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 n>Y_3:>j6EY;8`1k43m^Y2
+!s85 0
+!s108 1665640094.025000
+!s107 C:/Users/user/Desktop/Documentos/LAOC/Pratica2/dec3to8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/user/Desktop/Documentos/LAOC/Pratica2|C:/Users/user/Desktop/Documentos/LAOC/Pratica2/dec3to8.v|
+!s101 -O0
+vF
+ITl4eg>CS;G_GgLJ[=82n61
+VJ;Y;06k8nGc]c`9R3_HJJ1
+R1
+w1665636497
+8C:/Users/user/Desktop/Documentos/LAOC/Pratica2/F.v
+FC:/Users/user/Desktop/Documentos/LAOC/Pratica2/F.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@f
+!i10b 1
+!s100 AK0dGlLfEXS^VOCUK8amT2
+!s85 0
+!s108 1665640093.776000
+!s107 C:/Users/user/Desktop/Documentos/LAOC/Pratica2/F.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/user/Desktop/Documentos/LAOC/Pratica2|C:/Users/user/Desktop/Documentos/LAOC/Pratica2/F.v|
+!s101 -O0
+vmoduloW
+INL16X84:QP?W2m]e6^DGb3
+VK<12]d@6W3_E:mi:RnLoN2
+R1
+w1665636181
+8C:/Users/user/Desktop/Documentos/LAOC/Pratica2/moduloW.v
+FC:/Users/user/Desktop/Documentos/LAOC/Pratica2/moduloW.v
+L0 1
+R2
+r1
+31
+R3
+R4
+nmodulo@w
+!i10b 1
+!s100 4=I_A_hn`9b5kGGh0O9Lb2
+!s85 0
+!s108 1665640094.073000
+!s107 C:/Users/user/Desktop/Documentos/LAOC/Pratica2/moduloW.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/user/Desktop/Documentos/LAOC/Pratica2|C:/Users/user/Desktop/Documentos/LAOC/Pratica2/moduloW.v|
+!s101 -O0
+vPC
+Ia5;^kQgEG89lLa9dR4Agl1
+VN2ZSG_^9Mk[?Zj1]GNn1:2
+R1
+w1665638043
+8C:/Users/user/Desktop/Documentos/LAOC/Pratica2/PC.v
+FC:/Users/user/Desktop/Documentos/LAOC/Pratica2/PC.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@p@c
+!i10b 1
+!s100 lTi;VnSN_Paj<M_?9V_=l0
+!s85 0
+!s108 1665640093.848000
+!s107 C:/Users/user/Desktop/Documentos/LAOC/Pratica2/PC.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/user/Desktop/Documentos/LAOC/Pratica2|C:/Users/user/Desktop/Documentos/LAOC/Pratica2/PC.v|
+!s101 -O0
+vProcessador
+I^2hJ2438Ug<KJ0dj_`f9U3
+VcQD6PdMm[VWlR4[hBQ>202
+R1
+w1665637653
+8C:/Users/user/Desktop/Documentos/LAOC/Pratica2/Processador.v
+FC:/Users/user/Desktop/Documentos/LAOC/Pratica2/Processador.v
+L0 1
+R2
+r1
+31
+R3
+n@processador
+R4
+!i10b 1
+!s100 T6a;;?3Z6KGCV;c]IAz`F0
+!s85 0
+!s108 1665640093.646000
+!s107 C:/Users/user/Desktop/Documentos/LAOC/Pratica2/Processador.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/user/Desktop/Documentos/LAOC/Pratica2|C:/Users/user/Desktop/Documentos/LAOC/Pratica2/Processador.v|
+!s101 -O0
+vRAM
+IQ]f1boLO69Pc6U8?QbBHE3
+V5JF2D1``EbK3aZ0i`K7K@3
+R1
+w1665635086
+8C:/Users/user/Desktop/Documentos/LAOC/Pratica2/RAM.v
+FC:/Users/user/Desktop/Documentos/LAOC/Pratica2/RAM.v
+L0 39
+R2
+r1
+31
+R3
+R4
+n@r@a@m
+!i10b 1
+!s100 ]lghSCNnTXBaJb2@JgUR42
+!s85 0
+!s108 1665640093.978000
+!s107 C:/Users/user/Desktop/Documentos/LAOC/Pratica2/RAM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/user/Desktop/Documentos/LAOC/Pratica2|C:/Users/user/Desktop/Documentos/LAOC/Pratica2/RAM.v|
+!s101 -O0
+vregn
+I>^Z?]38]z]]M5gKeT<K4X2
+Vbzg3g70;dke7z[oFm1`@h3
+R1
+w1665631985
+8C:/Users/user/Desktop/Documentos/LAOC/Pratica2/regn.v
+FC:/Users/user/Desktop/Documentos/LAOC/Pratica2/regn.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 g=;dYmFiQMI15TFV4nH0U0
+!s85 0
+!s108 1665640093.692000
+!s107 C:/Users/user/Desktop/Documentos/LAOC/Pratica2/regn.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/user/Desktop/Documentos/LAOC/Pratica2|C:/Users/user/Desktop/Documentos/LAOC/Pratica2/regn.v|
+!s101 -O0
+vROM
+Ia:RBB_<oKKLkBPiD7Hje`0
+VYjG6FQnmakmI84gJEVKWe0
+R1
+w1665639073
+8C:/Users/user/Desktop/Documentos/LAOC/Pratica2/ROM.v
+FC:/Users/user/Desktop/Documentos/LAOC/Pratica2/ROM.v
+L0 39
+R2
+r1
+31
+R3
+R4
+n@r@o@m
+!i10b 1
+!s100 ]m6VR6o=nT0J_j`I4Y;?c2
+!s85 0
+!s108 1665640093.933000
+!s107 C:/Users/user/Desktop/Documentos/LAOC/Pratica2/ROM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/user/Desktop/Documentos/LAOC/Pratica2|C:/Users/user/Desktop/Documentos/LAOC/Pratica2/ROM.v|
+!s101 -O0
+vtest_pratica2
+!i10b 1
+!s100 gX8>8gfIN8APUz[k@W55o3
+I:ToDOUedgo=Y[2Mb2f7@Z3
+V=j6G5E0]L0ZZzkVA<Ha8<1
+R1
+w1665640063
+8C:/Users/user/Desktop/Documentos/LAOC/Pratica2/test_pratica2.v
+FC:/Users/user/Desktop/Documentos/LAOC/Pratica2/test_pratica2.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1665640094.122000
+!s107 C:/Users/user/Desktop/Documentos/LAOC/Pratica2/test_pratica2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/user/Desktop/Documentos/LAOC/Pratica2|C:/Users/user/Desktop/Documentos/LAOC/Pratica2/test_pratica2.v|
+!s101 -O0
+R3
+R4
+vULA
+I`J5`NaMTYRCFDz1WY?I0Z1
+V:?5^E6^9GzEKobQ_0e^>k2
+R1
+w1665632466
+8C:/Users/user/Desktop/Documentos/LAOC/Pratica2/ULA.v
+FC:/Users/user/Desktop/Documentos/LAOC/Pratica2/ULA.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@u@l@a
+!i10b 1
+!s100 YNN[YDEOSP`O3[OJoJm1V1
+!s85 0
+!s108 1665640093.734000
+!s107 C:/Users/user/Desktop/Documentos/LAOC/Pratica2/ULA.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/user/Desktop/Documentos/LAOC/Pratica2|C:/Users/user/Desktop/Documentos/LAOC/Pratica2/ULA.v|
+!s101 -O0

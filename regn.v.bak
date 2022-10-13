@@ -1,0 +1,16 @@
+module regn (BusWires, validar, Clock, dataOut);
+	input [15:0]BusWires;
+	input validar, Clock;
+	output reg [15:0]dataOut;
+	
+	initial begin
+		dataOut = 0;
+	end
+
+	always @(posedge Clock) begin
+		if(validar == 1'b1) begin
+			dataOut = BusWires;
+		end
+	end	
+
+endmodule

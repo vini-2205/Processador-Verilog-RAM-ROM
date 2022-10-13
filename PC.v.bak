@@ -1,0 +1,25 @@
+module PC (
+	input [15:0]BusWires,
+	input pc_in,
+	input pc_incr,
+	input Clock,
+	output wire [15:0]PC_out
+);
+	reg[15:0] PC;
+	
+	initial begin
+		PC = 0;
+	end
+
+	always @(negedge Clock) begin
+		if(pc_incr == 1'b1) begin
+			PC = PC + 16'b0000000000000001;
+		end
+		else if(pc_in == 1'b1) begin
+			PC = BusWires;
+		end
+	end
+	
+	assign PC_out = PC; 
+	
+endmodule

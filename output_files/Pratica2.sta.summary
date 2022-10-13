@@ -1,0 +1,93 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'Tstep_Q.T4'
+Slack : -10.342
+TNS   : -167.380
+
+Type  : Slow Model Setup 'Clock'
+Slack : -10.156
+TNS   : -1165.296
+
+Type  : Slow Model Setup 'regn:reg_IR|data[10]'
+Slack : -2.556
+TNS   : -12.313
+
+Type  : Slow Model Hold 'Tstep_Q.T4'
+Slack : -3.344
+TNS   : -47.933
+
+Type  : Slow Model Hold 'regn:reg_IR|data[10]'
+Slack : -2.860
+TNS   : -12.421
+
+Type  : Slow Model Hold 'Clock'
+Slack : -2.484
+TNS   : -6.310
+
+Type  : Slow Model Recovery 'regn:reg_IR|data[10]'
+Slack : -3.375
+TNS   : -17.426
+
+Type  : Slow Model Removal 'regn:reg_IR|data[10]'
+Slack : 1.414
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'Clock'
+Slack : -2.000
+TNS   : -387.610
+
+Type  : Slow Model Minimum Pulse Width 'Tstep_Q.T4'
+Slack : -1.278
+TNS   : -89.460
+
+Type  : Slow Model Minimum Pulse Width 'regn:reg_IR|data[10]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'Tstep_Q.T4'
+Slack : -5.001
+TNS   : -78.383
+
+Type  : Fast Model Setup 'Clock'
+Slack : -4.584
+TNS   : -528.501
+
+Type  : Fast Model Setup 'regn:reg_IR|data[10]'
+Slack : -0.572
+TNS   : -1.378
+
+Type  : Fast Model Hold 'Tstep_Q.T4'
+Slack : -1.869
+TNS   : -28.394
+
+Type  : Fast Model Hold 'regn:reg_IR|data[10]'
+Slack : -1.609
+TNS   : -7.534
+
+Type  : Fast Model Hold 'Clock'
+Slack : -1.419
+TNS   : -11.401
+
+Type  : Fast Model Recovery 'regn:reg_IR|data[10]'
+Slack : -0.938
+TNS   : -3.747
+
+Type  : Fast Model Removal 'regn:reg_IR|data[10]'
+Slack : 0.590
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'Clock'
+Slack : -2.000
+TNS   : -387.610
+
+Type  : Fast Model Minimum Pulse Width 'Tstep_Q.T4'
+Slack : -0.322
+TNS   : -22.540
+
+Type  : Fast Model Minimum Pulse Width 'regn:reg_IR|data[10]'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------

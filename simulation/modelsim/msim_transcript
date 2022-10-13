@@ -1,0 +1,243 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Pratica2_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/user/Desktop/Documentos/LAOC/Pratica2 {C:/Users/user/Desktop/Documentos/LAOC/Pratica2/Processador.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Processador
+# 
+# Top level modules:
+# 	Processador
+# vlog -vlog01compat -work work +incdir+C:/Users/user/Desktop/Documentos/LAOC/Pratica2 {C:/Users/user/Desktop/Documentos/LAOC/Pratica2/regn.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module regn
+# 
+# Top level modules:
+# 	regn
+# vlog -vlog01compat -work work +incdir+C:/Users/user/Desktop/Documentos/LAOC/Pratica2 {C:/Users/user/Desktop/Documentos/LAOC/Pratica2/ULA.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ULA
+# 
+# Top level modules:
+# 	ULA
+# vlog -vlog01compat -work work +incdir+C:/Users/user/Desktop/Documentos/LAOC/Pratica2 {C:/Users/user/Desktop/Documentos/LAOC/Pratica2/F.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module F
+# 
+# Top level modules:
+# 	F
+# vlog -vlog01compat -work work +incdir+C:/Users/user/Desktop/Documentos/LAOC/Pratica2 {C:/Users/user/Desktop/Documentos/LAOC/Pratica2/PC.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module PC
+# 
+# Top level modules:
+# 	PC
+# vlog -vlog01compat -work work +incdir+C:/Users/user/Desktop/Documentos/LAOC/Pratica2 {C:/Users/user/Desktop/Documentos/LAOC/Pratica2/barrel.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module barrel
+# 
+# Top level modules:
+# 	barrel
+# vlog -vlog01compat -work work +incdir+C:/Users/user/Desktop/Documentos/LAOC/Pratica2 {C:/Users/user/Desktop/Documentos/LAOC/Pratica2/ROM.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ROM
+# 
+# Top level modules:
+# 	ROM
+# vlog -vlog01compat -work work +incdir+C:/Users/user/Desktop/Documentos/LAOC/Pratica2 {C:/Users/user/Desktop/Documentos/LAOC/Pratica2/RAM.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module RAM
+# 
+# Top level modules:
+# 	RAM
+# vlog -vlog01compat -work work +incdir+C:/Users/user/Desktop/Documentos/LAOC/Pratica2 {C:/Users/user/Desktop/Documentos/LAOC/Pratica2/dec3to8.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module dec3to8
+# 
+# Top level modules:
+# 	dec3to8
+# vlog -vlog01compat -work work +incdir+C:/Users/user/Desktop/Documentos/LAOC/Pratica2 {C:/Users/user/Desktop/Documentos/LAOC/Pratica2/moduloW.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module moduloW
+# 
+# Top level modules:
+# 	moduloW
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/user/Desktop/Documentos/LAOC/Pratica2 {C:/Users/user/Desktop/Documentos/LAOC/Pratica2/test_pratica2.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module test_pratica2
+# 
+# Top level modules:
+# 	test_pratica2
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc"  test_pratica2
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps test_pratica2 
+# Loading work.test_pratica2
+# Loading work.Processador
+# Loading work.ROM
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.RAM
+# Loading work.dec3to8
+# Loading work.regn
+# Loading work.moduloW
+# Loading work.ULA
+# Loading work.F
+# Loading work.PC
+# Loading work.barrel
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/Documentos/LAOC/Pratica2/Processador.v(45): [PCDPC] - Port size (6 or 6) does not match connection size (16) for port 'address'. The port definition is at: C:/Users/user/Desktop/Documentos/LAOC/Pratica2/ROM.v(40).
+# 
+#         Region: /test_pratica2/proc/instrucoes
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/Documentos/LAOC/Pratica2/ROM.v(81): [PCDPC] - Port size (5 or 5) does not match connection size (6) for port 'address_a'. The port definition is at: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/altera_mf.v(44422).
+# 
+#         Region: /test_pratica2/proc/instrucoes/altsyncram_component
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/Documentos/LAOC/Pratica2/Processador.v(46): [PCDPC] - Port size (8 or 8) does not match connection size (16) for port 'address'. The port definition is at: C:/Users/user/Desktop/Documentos/LAOC/Pratica2/RAM.v(40).
+# 
+#         Region: /test_pratica2/proc/inst_ram
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# mv
+# T0 | Done: 0 | r0: 0000 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     0 | pc_incr: 1 IR: 0000000000000000
+#  
+# T1 | Done: 0 | r0: 0000 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     1 | pc_incr: 0 IR: 0000000000000000
+#  
+# T2 | Done: 0 | r0: 0000 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     1 | pc_incr: 0 IR: 0000000000000000
+#  
+# T3 | Done: 1 | r0: 0000 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     1 | pc_incr: 0 IR: 0001000000000010
+#  
+# sub
+# T0 | Done: 0 | r0: 0002 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     1 | pc_incr: 1 IR: 0001000000000010
+#  
+# T1 | Done: 0 | r0: 0002 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     2 | pc_incr: 0 IR: 0001000000000010
+#  
+# T2 | Done: 0 | r0: 0002 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     2 | pc_incr: 0 IR: 0001000000000010
+#  
+# T3 | Done: 0 | r0: 0002 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     2 | pc_incr: 0 IR: 0111000000000001
+#  
+# T4 | Done: 0 | r0: 0002 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     2 | pc_incr: 0 IR: 0111000000000001
+#  
+# T5 | Done: 1 | r0: 0002 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     2 | pc_incr: 0 IR: 0111000000000001
+#  
+# bne
+# T0 | Done: 0 | r0: 0001 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     2 | pc_incr: 1 IR: 0111000000000001
+#  
+# T1 | Done: 0 | r0: 0001 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     3 | pc_incr: 0 IR: 0111000000000001
+#  
+# T2 | Done: 0 | r0: 0001 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     3 | pc_incr: 0 IR: 0111000000000001
+#  
+# T3 | Done: 0 | r0: 0001 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     3 | pc_incr: 0 IR: 0010010111111110
+#  
+# T4 | Done: 0 | r0: 0001 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     3 | pc_incr: 0 IR: 0010010111111110
+#  
+# T5 | Done: 1 | r0: 0001 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     3 | pc_incr: 0 IR: 0010010111111110
+#  
+# sub
+# T0 | Done: 0 | r0: 0001 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     1 | pc_incr: 1 IR: 0010010111111110
+#  
+# T1 | Done: 0 | r0: 0001 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     2 | pc_incr: 0 IR: 0010010111111110
+#  
+# T2 | Done: 0 | r0: 0001 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     2 | pc_incr: 0 IR: 0010010111111110
+#  
+# T3 | Done: 0 | r0: 0001 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     2 | pc_incr: 0 IR: 0111000000000001
+#  
+# T4 | Done: 0 | r0: 0001 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     2 | pc_incr: 0 IR: 0111000000000001
+#  
+# T5 | Done: 1 | r0: 0001 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     2 | pc_incr: 0 IR: 0111000000000001
+#  
+# bne
+# T0 | Done: 0 | r0: 0000 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     2 | pc_incr: 1 IR: 0111000000000001
+#  
+# T1 | Done: 0 | r0: 0000 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     3 | pc_incr: 0 IR: 0111000000000001
+#  
+# T2 | Done: 0 | r0: 0000 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     3 | pc_incr: 0 IR: 0111000000000001
+#  
+# T3 | Done: 1 | r0: 0000 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     3 | pc_incr: 0 IR: 0010010111111110
+#  
+# beq
+# T0 | Done: 0 | r0: 0000 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     3 | pc_incr: 1 IR: 0010010111111110
+#  
+# T1 | Done: 0 | r0: 0000 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     4 | pc_incr: 0 IR: 0010010111111110
+#  
+# T2 | Done: 0 | r0: 0000 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     4 | pc_incr: 0 IR: 0010010111111110
+#  
+# T3 | Done: 0 | r0: 0000 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     4 | pc_incr: 0 IR: 0010001000000001
+#  
+# T4 | Done: 0 | r0: 0000 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     4 | pc_incr: 0 IR: 0010001000000001
+#  
+# T5 | Done: 1 | r0: 0000 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     4 | pc_incr: 0 IR: 0010001000000001
+#  
+# mvt
+# T0 | Done: 0 | r0: 0000 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     5 | pc_incr: 1 IR: 0010001000000001
+#  
+# T1 | Done: 0 | r0: 0000 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     6 | pc_incr: 0 IR: 0010001000000001
+#  
+# T2 | Done: 0 | r0: 0000 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     6 | pc_incr: 0 IR: 0010001000000001
+#  
+# T3 | Done: 1 | r0: 0000 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     6 | pc_incr: 0 IR: 0011000011111111
+#  
+# add
+# T0 | Done: 0 | r0: ff00 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     6 | pc_incr: 1 IR: 0011000011111111
+#  
+# T1 | Done: 0 | r0: ff00 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     7 | pc_incr: 0 IR: 0011000011111111
+#  
+# T2 | Done: 0 | r0: ff00 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     7 | pc_incr: 0 IR: 0011000011111111
+#  
+# T3 | Done: 0 | r0: ff00 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     7 | pc_incr: 0 IR: 0101000011111111
+#  
+# T4 | Done: 0 | r0: ff00 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     7 | pc_incr: 0 IR: 0101000011111111
+#  
+# T5 | Done: 1 | r0: ff00 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     7 | pc_incr: 0 IR: 0101000011111111
+#  
+# B
+# T0 | Done: 0 | r0: ffff | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     7 | pc_incr: 1 IR: 0101000011111111
+#  
+# T1 | Done: 0 | r0: ffff | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     8 | pc_incr: 0 IR: 0101000011111111
+#  
+# T2 | Done: 0 | r0: ffff | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     8 | pc_incr: 0 IR: 0101000011111111
+#  
+# T3 | Done: 0 | r0: ffff | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     8 | pc_incr: 0 IR: 0010000111111000
+#  
+# T4 | Done: 0 | r0: ffff | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     8 | pc_incr: 0 IR: 0010000111111000
+#  
+# T5 | Done: 1 | r0: ffff | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     8 | pc_incr: 0 IR: 0010000111111000
+#  
+# mv
+# T0 | Done: 0 | r0: ffff | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     0 | pc_incr: 1 IR: 0010000111111000
+#  
+# T1 | Done: 0 | r0: ffff | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     1 | pc_incr: 0 IR: 0010000111111000
+#  
+# T2 | Done: 0 | r0: ffff | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     1 | pc_incr: 0 IR: 0010000111111000
+#  
+# T3 | Done: 1 | r0: ffff | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     1 | pc_incr: 0 IR: 0001000000000010
+#  
+# sub
+# T0 | Done: 0 | r0: 0002 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     1 | pc_incr: 1 IR: 0001000000000010
+#  
+# T1 | Done: 0 | r0: 0002 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     2 | pc_incr: 0 IR: 0001000000000010
+#  
+# T2 | Done: 0 | r0: 0002 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     2 | pc_incr: 0 IR: 0001000000000010
+#  
+# T3 | Done: 0 | r0: 0002 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     2 | pc_incr: 0 IR: 0111000000000001
+#  
+# T4 | Done: 0 | r0: 0002 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     2 | pc_incr: 0 IR: 0111000000000001
+#  
+# T5 | Done: 1 | r0: 0002 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     2 | pc_incr: 0 IR: 0111000000000001
+#  
+# T0 | Done: 0 | r0: 0001 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     2 | pc_incr: 1 IR: 0111000000000001
+#  
+# T1 | Done: 0 | r0: 0001 | r1: 0000 | r2:     0 | r3:     0 | r4: 0000 | r5:     0 | r6:     0 | pc:     3 | pc_incr: 0 IR: 0111000000000001
+#  

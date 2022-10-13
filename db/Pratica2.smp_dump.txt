@@ -1,0 +1,9 @@
+
+State Machine - |Processador|Tstep_Q
+Name Tstep_Q.T5 Tstep_Q.T4 Tstep_Q.T3 Tstep_Q.T2 Tstep_Q.T1 Tstep_Q.T0 
+Tstep_Q.T0 0 0 0 0 0 0 
+Tstep_Q.T1 0 0 0 0 1 1 
+Tstep_Q.T2 0 0 0 1 0 1 
+Tstep_Q.T3 0 0 1 0 0 1 
+Tstep_Q.T4 0 1 0 0 0 1 
+Tstep_Q.T5 1 0 0 0 0 1 

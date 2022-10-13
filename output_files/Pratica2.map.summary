@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Oct 13 02:47:49 2022
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : Pratica2
+Top-level Entity Name : Processador
+Family : Cyclone II
+Total logic elements : 714
+    Total combinational functions : 560
+    Dedicated logic registers : 208
+Total registers : 208
+Total pins : 100
+Total virtual pins : 0
+Total memory bits : 4,608
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

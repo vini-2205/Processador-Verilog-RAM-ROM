@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at Processador.v(31): object "Shift" differs only in case from object "shift" in the same scope
+Warning (10268): Verilog HDL information at display.v(8): always construct contains both blocking and non-blocking assignments
